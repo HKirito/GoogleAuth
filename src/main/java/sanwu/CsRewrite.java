@@ -21,7 +21,6 @@ class CsRewrite {
         ClassPool classPool = ClassPool.getDefault();
         Loader loader = new Loader(classPool);
 
-
         //插入类路径，进行获取所需修改的类路径
         String className = "server.ManageUser";
 

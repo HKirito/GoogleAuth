@@ -25,6 +25,7 @@ public class GoogleAuthenticationTool {
         random.nextBytes(bytes);
         Base32 base32 = new Base32();
         return base32.encodeToString(bytes);
+
     }
 
     /**
